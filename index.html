@@ -4,19 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
   <title>WebStudio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+    integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
   <header>
     <!-- logo -->
     <nav>
-      <a href="./index.html">WebStudio</a>
+      <a class="logo" href="./index.html">Web <span class="part-logo">Studio</span></a>
       <!-- menu nav -->
       <ul>
-        <li><a href="">Studio</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Contacts</a></li>
+        <li><a class="header-item" href="">Studio</a></li>
+        <li><a class="header-item" href="">Portfolio</a></li>
+        <li><a class="header-item" href="">Contacts</a></li>
       </ul>
     </nav>
     <!-- contacts -->
@@ -28,12 +37,12 @@
     </address>
   </header>
   <main>
-    <!-- Main theme -->
+    <!-- main theme -->
     <section>
       <h1>Effective Solutions for Your Business</h1>
       <button type="button">Order Service</button>
     </section>
-    <!-- Features -->
+    <!-- features -->
     <section>
       <h2>Features</h2>
       <ul>
@@ -72,24 +81,61 @@
       <h2>Our Team</h2>
       <ul>
         <li>
-          <img src="./images/img1.jpg" alt="Product Designer" width="264" />
+          <img src="./images/team-img1.jpg" alt="Product Designer" width="264">
           <h3>Mark Guerrero</h3>
           <p>Product Designer</p>
         </li>
         <li>
-          <img src="./images/img2.jpg" alt="Frontend Developer" width="264" />
+          <img src="./images/team-img2.jpg" alt="Frontend Developer" width="264">
           <h3>Tom Ford</h3>
           <p>Frontend Developer</p>
         </li>
         <li>
-          <img src="./images/img3.jpg" alt="Marketing" width="264" />
+          <img src="./images/team-img3.jpg" alt="Marketing" width="264">
           <h3>Camila Garcia</h3>
           <p>Marketing</p>
         </li>
         <li>
-          <img src="./images/img4.jpg" alt="UI Designer" width="264" />
+          <img src="./images/team-img4.jpg" alt="UI Designer" width="264">
           <h3>Daniel Wilson</h3>
           <p>UI Designer</p>
+        </li>
+      </ul>
+    </section>
+    <!-- our portfolio -->
+    <section>
+      <h2>Our Portfolio</h2>
+      <ul>
+        <li>
+          <img src="./images/portfolio-img1.jpg" width="360" height="300" alt="Bank application screenshots">
+          <h3>Banking App</h3>
+          <p>App</p>
+        </li>
+        <li>
+          <img src="./images/portfolio-img2.jpg" width="360" height="300" alt="Payment with smartphone">
+          <h3>Cashless Payment</h3>
+          <p>Marketing</p>
+        </li>
+        <li>
+          <img src="./images/portfolio-img3.jpg" width="360" height="300"
+            alt="Application screen on laptop and smartphone">
+          <h3>Meditation App</h3>
+          <p>App</p>
+        </li>
+        <li>
+          <img src="./images/portfolio-img4.jpg" width="360" height="300" alt="Taxi driving weel">
+          <h3>Taxi Service</h3>
+          <p>Marketing</p>
+        </li>
+        <li>
+          <img src="./images/portfolio-img5.jpg" width="360" height="300" alt="Screen illustrations">
+          <h3>Screen Illustrations</h3>
+          <p>Design</p>
+        </li>
+        <li>
+          <img src="./images/portfolio-img6.jpg" width="360" height="300" alt="Happy woman with smartphone">
+          <h3>Online Courses</h3>
+          <p>Marketing</p>
         </li>
       </ul>
     </section>

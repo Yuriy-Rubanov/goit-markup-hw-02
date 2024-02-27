@@ -1,0 +1,32 @@
+body {
+  font-family: "Raleway", "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/* header */
+.logo {
+  color: #4d5ae5;
+  font-family: "Raleway" sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
+}
+
+.part-logo {
+  color: #2e2f42;
+}
+
+.header-item {
+  color: #2e2f42;
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
